@@ -9,7 +9,7 @@ export  class Persongem {
         this.dinheiro
     }
     
-    mostarVida():number{
+    mostrarVida():number{
         return this.vida
     }
 

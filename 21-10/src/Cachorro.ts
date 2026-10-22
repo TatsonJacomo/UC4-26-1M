@@ -4,14 +4,14 @@ export class Cachorro {
     private raca:string
     private idade:number
 
-    // 2. Criando o construtor para inicializar os atributos ao criar o objeto
+    // Criando o construtor para inicializar os atributos ao criar o objeto
     constructor(nome:string, raca:string, idade:number) {
         this.nome = nome
         this.raca = raca
         this.idade = idade
     }
 
-    // 3. Criando os métodos GET (para ler os valores dos atributos privados)
+    //  Criando os métodos GET (para ler os valores dos atributos privados)
     public getNome():string {
         return this.nome
     }
@@ -24,7 +24,7 @@ export class Cachorro {
         return this.idade
     }
 
-    // 4. Criando os métodos SET (para alterar os valores dos atributos com segurança)
+    // Criando os métodos SET (para alterar os valores dos atributos com segurança)
     public setNome(nome:string): void {
         this.nome = nome;
   } 
