@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Carro_1 = require("./Carro");
+const carro1 = new Carro_1.Carro("Peugeot", "Hacth", 2010);
+const carro2 = new Carro_1.Carro("Renault", "Sedan", 2030);
+const carro3 = new Carro_1.Carro("Ford", "SUV", 1999);
+console.log("----- Carro 1 ------");
+console.log(`Marca: ${carro1.marca}`);
+console.log(`Tipo: ${carro1.tipo}`);
+console.log(`Ano: ${carro1.ano}`);
+carro1.anda;
+carro1.buzina;
+console.log("");
+console.log("----- Carro 2 ------");
+console.log(`Marca: ${carro2.marca}`);
+console.log(`Tipo: ${carro2.tipo}`);
+console.log(`Ano: ${carro2.ano}`);
+carro2.anda;
+carro2.buzina;
+console.log("");
+console.log("----- Carro 3 ------");
+console.log(`Marca: ${carro3.marca}`);
+console.log(`Tipo: ${carro3.tipo}`);
+console.log(`Ano: ${carro3.ano}`);
+carro3.anda;
+carro3.buzina;
+console.log("");
+//# sourceMappingURL=indexcar.js.map
