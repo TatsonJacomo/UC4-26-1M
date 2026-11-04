@@ -5,8 +5,8 @@ export class Carro extends Veiculo {
 
 
     //método público chamado acelerar que acrescente um valor à velocidade.
-    public acelerar(valor:number): void {
-        this.velocidade += valor
+    public acelerar(): void {
+        this.velocidade += 25
     }
 
    public exibirVelocidade(): void {

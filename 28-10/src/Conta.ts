@@ -1,9 +1,8 @@
 export class Conta {
-    protected saldo:number
+    protected saldo:number = 0
 
-    constructor() {
-        
+    protected atualizarSaldo(valor:number): void {
+        this.saldo += valor
     }
-
 
 }
